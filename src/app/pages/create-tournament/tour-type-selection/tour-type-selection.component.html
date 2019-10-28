@@ -1,0 +1,40 @@
+<ion-content>
+  <ion-list>
+    <ion-card (click)="dismiss('Standard Tournament')">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center">Standard Tournament</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Host a standard tournament where you and your friends can actively log in a see the current brackets.
+        Only the host will be able to update the tournament standings.
+      </ion-card-content>
+    </ion-card>
+    <ion-card (click)="dismiss('Custom Tournament Predictor')">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center">Custom Tournament Predictor</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Host your own tournament prediction game where you and your friends predict the outcome of a live tournament
+        and win points on whether your predictions are accurate.
+      </ion-card-content>
+    </ion-card>
+    <ion-card (click)="dismiss('Euro 2020 Predictor')">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center">Euro 2020 Predictor</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Host your own tournament prediction game based on the Eruro 2020 Tournament. Invite friends to join you in making
+        their predictions of the results.
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <div class="ion-text-end">
+      <ion-button (click)="dismiss('')">
+        Cancel
+      </ion-button>
+    </div>
+  </ion-toolbar>
+</ion-footer>

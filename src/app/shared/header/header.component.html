@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col size="8">
+        <ion-title>
+          Main App Header
+        </ion-title>
+      </ion-col>
+      <ion-col size="4">
+        <ion-button *ngIf="(authService.USER | async) === null else LoggedIn" size="{{buttonSize}}"
+          class="ion-float-right" [routerLink]="['/login']">
+          Login
+        </ion-button>
+        <ng-template #LoggedIn>
+          <ion-avatar (click)="presentPopover($event)" class="ion-float-right ion-margin-start">
+            <img src="{{ avatarSrc }}" />
+          </ion-avatar>
+        </ng-template>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>

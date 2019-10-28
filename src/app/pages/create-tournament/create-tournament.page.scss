@@ -1,0 +1,21 @@
+ion-select {
+    width: 100% !important;
+}
+
+.my-custom-alert .alert-wrapper{
+    width: 850px !important;
+    --width: 800px;
+    min-width: 500px !important;
+    max-width: 800px !important;
+ }
+
+ .alert-tappable.alert-radio {
+    height: auto;
+    contain: content;
+}
+
+.popup-container .popup {
+    width: 850px;
+ }
+
+ 

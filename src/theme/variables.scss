@@ -75,3 +75,24 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+// Hover Effect on ion-items Computers
+ion-item:hover {
+  cursor: pointer;
+}
+
+/* FULL SIZE ALERT BOX */
+ion-alert {
+    --width: 100% !important;
+    --min-width: 220px !important;
+    --max-width: 660px !important;
+}
+
+ion-avatar {
+  --border-radius: 10px;
+}
+
+ion-popover {
+  --width: auto !important;
+  --min-width: 150px !important;
+}

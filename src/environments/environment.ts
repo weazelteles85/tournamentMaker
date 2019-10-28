@@ -3,7 +3,21 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyBZOioAbK9lm65POFWAuQejRm-Mea-JZAo",
+    authDomain: "tournamentmaker-telesapps.firebaseapp.com",
+    databaseURL: "https://tournamentmaker-telesapps.firebaseio.com",
+    projectId: "tournamentmaker-telesapps",
+    storageBucket: "tournamentmaker-telesapps.appspot.com",
+    messagingSenderId: "154683045378",
+    appId: "1:154683045378:web:d295036f046359e6b1991b",
+    measurementId: "G-JTRHRL4699"
+  },
+};
+
+export const GCP = {
+  webClientID : '154683045378-sjb8n5qip0q9dcbm1omrke3jn35jsivl.apps.googleusercontent.com'
 };
 
 /*
